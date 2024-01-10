@@ -1,0 +1,66 @@
+.profile-card {
+    width: 100%;
+    height: max-content;
+
+}
+
+.banner {
+    background: grey;
+    height: 170px;
+}
+
+.profile-info {
+    display: flex;
+    height: 50%;
+}
+
+.detail {
+    width: 70%;
+    height: 100%;
+}
+
+
+
+.other {
+    width: 30%;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 150px;
+    background: tan;
+    height: 150px;
+    border-radius: 100px;
+    position:absolute;
+    top: 30%;
+    border: 3px solid white;
+    margin-left: 20px;
+}
+
+.profile-image img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 100px;
+    height: 100%;
+}
+
+.profile-detail {
+    margin-top: 60px;
+    padding: 25px;
+}
+
+.profile-detail * {
+    margin-top: 5px;
+}
+
+.follow-info {
+    display: flex;
+}
+
+.follow-info * {
+    margin-right: 15px;
+}

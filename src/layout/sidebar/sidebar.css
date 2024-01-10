@@ -1,0 +1,38 @@
+
+
+#sidebar {
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-container {
+    display: flex;
+    height: 100%;
+
+    position: fixed;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.sidebar-container p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.sidebar-container p:hover {
+    background: lightslategray;
+}
+
+.sidebar-container p * {
+    margin-right: 10px;
+}

@@ -1,0 +1,15 @@
+.text-input {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    margin-left: 25px;
+    flex-direction: column;
+}

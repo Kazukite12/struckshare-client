@@ -1,0 +1,17 @@
+
+
+.profile-nav {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+}
+
+.profile-nav * {
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+}
+
+.profile-nav *:hover {
+    background: gray;
+}
